@@ -27,25 +27,21 @@
 //con esto tomo el numero de codigo que ingrese el usuario
 let input = document.querySelector('input');
 
-function getBip(num){
+
 
         // 13 is enter
           // code for enter
           input.addEventListener("keypress",(enter)=>{
             let key = enter.which || enter.keyCode;
             if (key === 13) {
-            
-
+            let num = input.value;
+              //  getBip(num => {
 
           fetch(`http://www.psep.cl/api/Bip.php?&numberBip=${num}`) 
             .then(response => response.json())
             .then(data => {
               
-                console.log(data);
-                
-             })
-            }
-    
-        })
-    }
-     console.log(getBip('77108068'))
+                console.log(data) 
+            })   
+        }    
+    })
