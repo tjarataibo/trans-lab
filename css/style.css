@@ -1,13 +1,10 @@
-/* Página */
-
-
 /* .bg-magenta{
     background-color: #3B3938;
     height : 100px;
 }
      */
 body{
-    background-color: #3B3938;
+    background-color: rgba(205, 200, 200, 0.954);
 }
 
 h1{
@@ -52,4 +49,3 @@ h1{
 .bg-yellow{
     background-color: #F5AC36;
 }
-
