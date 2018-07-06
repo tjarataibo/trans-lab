@@ -1,0 +1,23 @@
+#navbarToggleExternalContentTwo{
+    background-color: #F5AC36;
+    position : absolute;
+}
+
+#numTarjeta {
+
+  text-align: center;
+  }
+
+.container {
+
+   color: #F5AC36;
+   background-position: center center;
+   padding : 120px;
+   width : 340px;
+}
+
+h2{
+    color: grey;
+    font-size: 12px;
+}
+

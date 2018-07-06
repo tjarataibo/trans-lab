@@ -1,53 +1,45 @@
-
-/* Login */
-
-
-body{
+/* .bg-magenta{
     background-color: #3B3938;
+    height : 100px;
 }
-#loginbox{
-    margin-top:50px;
-}
-#signin{
-    float:right; font-size: 80%;
-    position: relative; 
-    top:-10px;
-}
-.panel-body{
-    padding-top:30px
-}
-#login-alert{
-    display:none;
-}
-.input-group{
-    margin-bottom: 25px;
-}.form-group{
-    margin-top:10px;
-}
-.donthave{
-    border-top: 1px solid#888;
-    padding-top:15px;
-    font-size:85%;
-}
-#loginbox{
-    border: #F5AC36;
-}
-.btn-yel{
-    background-color: #F5AC36;
-    border:none;
-    border-radius: 0;
-}
-#loginform{
-    background-color: white;
-    padding: 1em;
-}
-.form-horizontal{
-    border: 4px #F5AC36;
-}
-.form-control{
-    border-radius: none;
-}
-.tittle{
-    color: #F5AC36;
+     */
+body{
+    background-color: rgba(205, 200, 200, 0.954);
 }
 
+h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding : 35px;
+    margin-left : auto;
+    margin-right : auto;
+}
+
+/* .pd-sections{
+    padding: 3% 0;
+} */
+
+.tc-white{
+    color: white;
+  
+}
+
+.container{
+    color: #F5AC36;
+    background-position: center center;
+    padding : 90px;
+    width : 340px;
+}
+
+#navbarToggleExternalContent{
+    position : absolute;
+}
+
+/* .fa-dollar-sign{
+    color: #F5AC36;
+    font-size: 10em;
+} */
+
+.bg-yellow{
+    background-color: #F5AC36;
+}
